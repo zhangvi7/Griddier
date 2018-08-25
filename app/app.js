@@ -8,7 +8,7 @@
 // Needed for redux-saga es6 generator support
 import 'babel-polyfill';
 
-import dataInput from './backend/dataInput';
+import * as dataInput from './backend/dataInput';
 dataInput.fetchAllCourses();
 
 // Import all the third party stuff
